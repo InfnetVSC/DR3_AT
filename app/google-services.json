@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359519499283",
+    "project_id": "dr3-at-vinicius",
+    "storage_bucket": "dr3-at-vinicius.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359519499283:android:e8e9cb6a3b6428674d3be6",
+        "android_client_info": {
+          "package_name": "br.com.vinicius_de_souza_carvalho.dr3_at"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359519499283-tc225ids4defsnifmfl2bedn49ktug89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmdljJZZhSsXmOkxUj00s_g8-e-Jlx7d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359519499283-tc225ids4defsnifmfl2bedn49ktug89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

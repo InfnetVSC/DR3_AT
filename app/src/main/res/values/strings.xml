@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vinicius_de_Souza_Carvalho_DR3_AT</string>
+    <string name="faltaEmailSenha">E-mail ou senha não preenchidos.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="DOCUMENT_ID_REQUEST">DocumentId</string>
+
+</resources>
