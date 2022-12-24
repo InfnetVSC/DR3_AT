@@ -1,5 +1,8 @@
-# DR3_AT
-A sua tarefa consiste em implementar uma aplicação android a sua escolha e que atenda aos seguintes requisitos:
+AT FInal / DR3
+
+usuário teste1@teste.com Senha 12345678, mas podem ser criados novos.
+
+
 
 Deve ser escrito em Kotlin.
 Deve solicitar ao usuário que se credencie por email/senha ou por Facebook.
