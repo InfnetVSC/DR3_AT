@@ -50,6 +50,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'com.google.firebase:firebase-firestore-ktx'
 
+// para acessar api - faltou 26/12/2022
+    implementation 'com.google.code.gson:gson:2.8.2'
+    //implementation 'com.squareup.okhttp3:okhttp3:3.10.0'
+    //implementation 'com.jetbrains.anko:anko-sqlite:0.10.4'
 
 
     testImplementation 'junit:junit:4.13.2'
