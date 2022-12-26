@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun getCurrencies(){
-        val retrofitClient = NetworkUtils.getRetrofitInstance("https://cdn.jsdelivr.net/")
+        val retrofitClient = NetworkUtils.getRetrofitInstance("https://cdn.jsdelivr.net")
+        //val retrofitClient = NetworkUtils.getRetrofitInstance("https://gist.githubusercontent.com/")
         val endpoint = retrofitClient.create(Endpoint::class.java)
 
         endpoint.getCurrencies().enqueue(object : retrofit2.Callback<JsonObject> {
@@ -34,8 +35,12 @@ class MainActivity : AppCompatActivity() {
                 response.body()?.keySet()?.iterator()?.forEach {
                     data.add(it)
                 }
+                val posBRL = data.indexOf("brl")
+
                     val adapter = ArrayAdapter(baseContext, android.R.layout.simple_spinner_dropdown_item,data)
                     moeda.adapter = adapter
+                moeda.setSelection(posBRL)
+
             //println(data.count())
             }
 
