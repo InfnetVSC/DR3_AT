@@ -15,7 +15,32 @@
         app:defaultNavHost="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/app_navigation" />
+
+    <Spinner
+        android:id="@+id/moeda"
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="@+id/main_activity_nav_host"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/main_activity_nav_host"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione a sua moeda Local"
+        app:layout_constraintBottom_toBottomOf="@+id/main_activity_nav_host"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/main_activity_nav_host"
+        app:layout_constraintVertical_bias="0.52" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
